@@ -8,7 +8,6 @@
 body{
     background-color: #CCA9DD;
 }
-
 /*--------------------Index------------------------------*/
 .menu-principal-index{
     width: 80%;
@@ -25,6 +24,7 @@ td a{
 .legend-index{
     padding: 10px;
     background-color: #dcee78;
+    width: auto;
 }
 
 .form-page1{
@@ -68,12 +68,21 @@ td a{
     height: auto;
 }
 #bienvenida-index{
-    background-color: #dcee78;
+    background-color: #29e6ff;
+    padding-bottom: 20px;
 }
 #bienvenida-legend{
-    background-color: rgb(81, 97, 81);
+    background-color: rgb(110, 252, 164);
     padding: 10px;
     text-align: center;
+    border-style: none;
+    width: auto;
+}
+#colores{
+    height: auto;
+    width: auto;
+    background-color: #F6A;
+    border: solid .5px #000
 }
 /*--------------------MENU-------------------------------*/
 
@@ -115,18 +124,12 @@ header{
 .nav a:hover{
     color: white;
 }
+/*---------------Titulos-----------*/
 .HTitulo-index{
     text-align: left;
     font-family: Verdana;
     font-size: 30px;
     letter-spacing: 2px;
-}
-.HTitulo{
-    text-align: left;
-    font-family: Verdana;
-    font-size: 30px;
-    letter-spacing: 2px;
-    text-shadow: 15px 8px 10px rgba(111, 90, 131, 0.788);
 }
 .HTitulo:hover{
     color: rgb(70, 61, 61);
@@ -136,7 +139,6 @@ header{
     font-family: Verdana;
     font-size: 30px;
     letter-spacing: 2px;
-    text-shadow: 15px 8px 10px rgba(111, 90, 131, 0.788);
 }
 .HTitulo-Center:hover{
     color: rgb(70, 61, 61);
@@ -147,6 +149,43 @@ header{
     font-size: 18px;
     letter-spacing: .5px;
 }
+/*------------Colores de titulos------------*/
+.HTitulo-amarillo{
+    text-align: left;
+    font-family: Verdana;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 5px rgba(230, 233, 46, 0.795);
+}
+.HTitulo-naranja{
+    text-align: left;
+    font-family: Verdana;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 5px rgba(233, 158, 46, 0.795);
+}
+.HTitulo-rojo{
+    text-align: left;
+    font-family: Verdana;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 5px rgba(233, 46, 46, 0.795);
+}
+.HTitulo-verde{
+    text-shadow: 5px 5px 5px  rgb(87, 250, 101);
+    text-align: left;
+    font-family: Verdana;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.HTitulo-azul{
+    text-shadow: 5px 5px 5px  rgb(110, 200, 252);
+    text-align: left;
+    font-family: Verdana;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
 .Derechos{
     font-size: 12px;
     text-align: center;
@@ -171,13 +210,15 @@ p,li{
     text-align: center;
     margin-top: 20px;
     background-color: rgb(221, 224, 229);
-    width: 700px;
+    width: auto;
     height: auto;
     border: 1px solid #000;
     border-collapse: separate;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
+    flex-flow: column nowrap;
+
     
 }
 #th, #td, #th2, #td2{
@@ -221,19 +262,19 @@ p,li{
     background-color: antiquewhite;
     height: auto;
     width: 370px;
-    position: relative;
-    left: 961px;
-    top: 35px;
     font-family: Verdana;
     font-size: 14px;
     padding: 3px;
     display: flex;
     flex-flow: column nowrap;
     box-shadow: 10px 10px 10px black;
+    margin-left: 960px;
+    position: relative;
+    top: 35px;
 }
 
 .Principal{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(241, 251, 152);
     height: auto;
     width: 70%;
     margin-left: 3px;
@@ -245,7 +286,18 @@ p,li{
 }
 
 .Cuerpo{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(251, 211, 152);
+    height: auto;
+    width: 70%;
+    margin-left: 3px;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    box-shadow: 10px 10px 10px black;
+}
+.Cuerpo2{
+    background-color: #F6A;
     height: auto;
     width: 70%;
     margin-left: 3px;
@@ -266,6 +318,8 @@ p,li{
 
 #imagen3{
     padding-right: 6px;
+    width: auto;
+    
 }
 
 #parrafo-footer{
@@ -284,34 +338,38 @@ p,li{
     background-color: antiquewhite;
     height: auto;
     width: 370px;
-    position: relative;
-    left: 961px;
-    top: 35px;
     font-family: Verdana;
     font-size: 14px;
     padding: 3px;
     display: flex;
+    box-shadow: 10px 10px 10px black;
     flex-flow: column nowrap;
+    margin-left: 960px;
+    position: relative;
+    top: 35px;
+
 }
 
 .Principal-intensifiers{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(129, 248, 174);
     height: auto;
     width: 70%;
     margin-left: 3px;
     margin-top: -736px;
     padding: 10px;
     display: flex;
+    box-shadow: 10px 10px 10px black;
     flex-flow: column nowrap;
 }
 .Cuerpo-intensifiers{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(241, 251, 152);
     height: auto;
     width: 70%;
     margin-left: 3px;
     margin-top: 10px;
     padding: 10px;
     display: flex;
+    box-shadow: 10px 10px 10px black;
     flex-flow: column nowrap;
 }
 
@@ -321,44 +379,48 @@ p,li{
     background-color: antiquewhite;
     height: auto;
     width: 370px;
-    position: relative;
-    left: 961px;
-    top: 35px;
     font-family: Verdana;
     font-size: 14px;
     padding: 3px;
     display: flex;
     flex-flow: column nowrap;
+    margin-left: 960px;
+    position: relative;
+    box-shadow: 10px 10px 10px black;
+    top: 35px;
 }
 
 .Principal-questions{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(126, 218, 241);
     height: auto;
     width: 70%;
     margin-left: 3px;
     margin-top: -753px;
     padding: 10px;
     display: flex;
+    box-shadow: 10px 10px 10px black;
     flex-flow: column nowrap;
 }
 .Cuerpo-questions{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(129, 248, 174);
     height: auto;
     width: 70%;
     margin-left: 3px;
     margin-top: 10px;
     padding: 10px;
     display: flex;
+    box-shadow: 10px 10px 10px black;
     flex-flow: column nowrap;
 }
 .Cuerpo2-questions{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(241, 251, 152);
     height: auto;
     width: 70%;
     margin-left: 3px;
     margin-top: 10px;
     padding: 10px;
     display: flex;
+    box-shadow: 10px 10px 10px black;
     flex-flow: column nowrap;
 }
 
@@ -371,6 +433,7 @@ p,li{
     margin: auto;
     display: flex;
     flex-flow: column nowrap;
+    box-shadow: 10px 10px 10px black;
 }
 
 #form-comentarios label,#form-comentarios h3, #form-comentarios button{
@@ -396,6 +459,7 @@ p,li{
     margin: auto;
     display: flex;
     flex-flow: column nowrap;
+    box-shadow: 10px 10px 10px black;
 }
 
 #nombre-D:hover,#nombre-S:hover{
@@ -412,7 +476,7 @@ p,li{
     padding-right: 10px;
     padding-top: 5px;
     letter-spacing: .6px;
-
+    box-shadow: 10px 10px 10px black;
     display: flex;
     flex-flow: column nowrap;
 }
@@ -423,8 +487,8 @@ p,li{
     padding-right: 10px;
     padding-top: 5px;
     letter-spacing: .6px;
-    position: relative;
-    left: 125px;
+    margin-left: 200px;
+    box-shadow: 10px 10px 10px black;
     display: flex;
     flex-flow: column nowrap;
 }
