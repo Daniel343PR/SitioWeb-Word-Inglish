@@ -157,12 +157,18 @@ header{
     letter-spacing: 2px;
     text-shadow: 5px 5px 5px rgba(230, 233, 46, 0.795);
 }
+.HTitulo-amarillo:hover{
+    color: rgb(70, 65, 65);
+}
 .HTitulo-naranja{
     text-align: left;
     font-family: Verdana;
     font-size: 30px;
     letter-spacing: 2px;
     text-shadow: 5px 5px 5px rgba(233, 158, 46, 0.795);
+}
+.HTitulo-naranja:hover{
+    color: rgb(70, 65, 65);
 }
 .HTitulo-rojo{
     text-align: left;
@@ -171,6 +177,9 @@ header{
     letter-spacing: 2px;
     text-shadow: 5px 5px 5px rgba(233, 46, 46, 0.795);
 }
+.HTitulo-rojo:hover{
+    color: rgb(70, 65, 65);
+}
 .HTitulo-verde{
     text-shadow: 5px 5px 5px  rgb(87, 250, 101);
     text-align: left;
@@ -178,12 +187,18 @@ header{
     font-size: 30px;
     letter-spacing: 2px;
 }
+.HTitulo-verde:hover{
+    color: rgb(70, 65, 65);
+}
 .HTitulo-azul{
-    text-shadow: 5px 5px 5px  rgb(110, 200, 252);
+    text-shadow: 5px 5px 5px  rgb(131, 250, 250);
     text-align: left;
     font-family: Verdana;
     font-size: 30px;
     letter-spacing: 2px;
+}
+.HTitulo-azul:hover{
+    color: rgb(70, 65, 65);
 }
 
 .Derechos{
@@ -494,4 +509,21 @@ p,li{
 }
 #Img-D, #Img-S{
     padding-right: 10px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.link2{
+    text-decoration: none;
+    color: black;
+}
+.link2:hover{
+    color:red;
+    text-decoration: underline;
 }
